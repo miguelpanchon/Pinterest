@@ -12,9 +12,9 @@ Possibility of consuming images from unsplash (either random or filtering by key
 
 Import a HTML file and watch it magically convert to Markdown
 Understand endpoints of an API
-Usage of Async functions for API consumtion
+Usage of Async functions `for` API consumtion
 Initial usage of components
-Vite as a front en dev tool for vanilla JavaScript
+Vite as a front en dev tool `for` vanilla JavaScript
 Usage of Github as a repository
 Deployment in Netlify/Vercel
 MD file done with online Markdown editor  https://dillinger.io/ 
@@ -33,9 +33,9 @@ MD file done with online Markdown editor  https://dillinger.io/
 - responsive
 - flex-box
 - variables
-- general formatting
+- general `for`matting
 
-### Optional: debouncing for the introduction of text
+### Optional: debouncing `for` the introduction of text
 
 internet and IA: getting guidance on what is it and how to implement debouncing
 https://www.freecodecamp.org/espanol/news/curso-debounce-javascript-como-hacer-que-tu-js-espere/

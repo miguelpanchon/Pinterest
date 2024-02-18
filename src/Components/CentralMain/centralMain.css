@@ -1,0 +1,103 @@
+main {
+  --no_photos_color: #555;
+
+}
+
+h1 {
+  margin-left: 3.5svh;
+  text-align: Left;
+  font-size:6em;
+}
+
+.photos {
+  padding:0.8svw;
+}
+
+
+.div_photos1 {
+  height: 250vh; 
+  width: 100svw;
+  display: flex;
+  flex-direction: column;
+  flex-wrap:wrap;
+  justify-content: baseline; /*main axis*/
+  align-items: stretch; /*cross axis */
+  overflow:hidden;
+  padding-left:5.5svw;
+  padding-right:0.8svw;
+}
+
+.no-photos-message {
+  font-size: 3rem;
+  font-family: arial;
+  text-align: center;
+
+}
+
+#photos.no-photos { 
+  height: 10px;
+  margin-left: 2.5svh;
+ }
+
+ 
+/* ***************** */
+
+/* media queries */
+
+@media screen and (min-width:188px)and (max-width: 200px){
+  h1 {
+    margin-left: 3.5svh;
+    text-align: Left;
+    font-size:0.9em; 
+  }
+}
+
+
+@media screen and (min-width:201px)and (max-width: 378px){
+  h1 {
+    margin-left: 3.5svh;
+    text-align: Left;
+    font-size:1.4em;
+  }
+}
+
+@media screen and (min-width:379px)and (max-width: 430px) {
+  h1 {
+    margin-left: 3.5svh;
+    text-align: Left;
+    font-size:2em;
+  }
+}
+
+
+@media screen and (min-width:431px)and (max-width: 666px){
+  h1 {
+    margin-left: 3.5svh;
+    text-align: Left;
+    font-size:2.1em;
+  }
+}
+
+@media screen and (min-width:667px) and (max-width: 1000px) { 
+  h1 {
+    margin-left: 3.5svh;
+    text-align: Left;
+    font-size: 4.2em;
+  }
+}
+
+@media screen and (min-width:1001px)and (max-width: 1318px) {
+  h1 {
+    margin-left: 3.5svh;
+    text-align: Left;
+    font-size:4.5em;
+  }
+}
+
+@media screen and (min-width:1319px)and (max-width: 1706px) {
+
+}
+
+   @media screen and (min-width:1707px)and (max-width: 2500px) {
+  
+}

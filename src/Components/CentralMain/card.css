@@ -1,0 +1,65 @@
+
+.card {
+  width: 9.8svh;
+  height:auto;
+  overflow:hidden;
+  border-radius: 10px;
+  box-shadow: 4px 4px 6px 0 #104faf;
+  transition: transform 0.3s ease;
+  text-align: center;
+  font-size: 5vh;
+  /* color: #104faf; */
+  margin-bottom: 1.15svw; 
+}
+
+
+.card:hover {
+  transform: scale(1.05);
+ border: 0.3svh solid #1423cb;  /*introduces glitches... better without */
+}
+
+
+
+/* ***************** */
+
+@media screen and (min-width:188)and (max-width: 200px){
+  .card { width: 5svh; margin: 0.7svw; 
+}
+}
+
+
+
+@media screen and (min-width:201)and (max-width: 378px){
+   .card { width: 5svh; margin: 0.7svw; 
+ }
+}
+
+@media screen and (min-width:379)and (max-width: 430px) {
+   .card { width: 6svh; margin: 0.5svw; 
+ }
+}
+
+@media screen and (min-width:431)and (max-width: 666px){
+   .card { width: 6svh; margin: 0.8svw; 
+ }
+}
+
+@media screen and (min-width:667) and (max-width: 1000px) { 
+  .card { width: 8svh; margin: 0.7svw; 
+   }
+  }
+
+@media screen and (min-width:1001)and (max-width: 1318px) {
+   .card { width: 10svh; margin: 0.6svw; 
+   }
+  }
+
+  @media screen and (min-width:1319)and (max-width: 1706px) {
+    .card { width: 10svh; margin: 0.6svw; 
+    }
+   }
+
+   @media screen and (min-width:1707)and (max-width: 2500px) {
+    .card { width: 10svh; margin: 0.6svw; 
+    }
+   }

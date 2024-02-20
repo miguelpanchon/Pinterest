@@ -7,12 +7,12 @@ Possibility of consuming images from unsplash (either random or filtering by key
 
 
 ## Technical challenges:
-
 ### General
+```sh
 
 Import a HTML file and watch it magically convert to Markdown
 Understand endpoints of an API
-Usage of Async functions & API consumtion
+Usage of Async functions &	 API consumtion
 Initial usage of components
 Vite as a front en dev tool with vanilla JavaScript 
 Usage of Github as a repository
@@ -21,7 +21,6 @@ Deployment: Netlify/Vercel
 
 
 ### JS
-
 - event handlers
 - functions
 - variable scope
@@ -29,23 +28,17 @@ Deployment: Netlify/Vercel
 
 
 ### CSS
-
 - several media queries
 - responsive
 - flex-box
 - variables
 - general `for`matting
 
-### Optional ToDos: 
+### Optional: debouncing `for` the introduction of text
 
--debouncing when introducing text
 internet and IA: getting guidance on what is it and how to implement debouncing
-https://www.freecodecamp.org/espanol/news/curso-debounce-javascript-como-hacer-que-tu-js-espere/ and blackbox.ai
-
--onClick on logo to restart the webpage
-
--Waiting on teacher's comments
-
+https://www.freecodecamp.org/espanol/news/curso-debounce-javascript-como-hacer-que-tu-js-espere/
+and blackbox.ai
 
 
 | Main links | ||

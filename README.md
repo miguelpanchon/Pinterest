@@ -14,7 +14,7 @@ Import a HTML file and watch it magically convert to Markdown
 Understand endpoints of an API
 Usage of Async functions `for` API consumtion
 Initial usage of components
-Vite as a front en dev tool `for` vanilla JavaScript
+Vite as a front en dev tool ´for´ vanilla JavaScript
 Usage of Github as a repository
 Deployment in Netlify/Vercel
 MD file done with online Markdown editor  https://dillinger.io/ 

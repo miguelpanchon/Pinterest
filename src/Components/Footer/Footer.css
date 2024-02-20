@@ -27,7 +27,7 @@ footer {
 
 /* media queries */
 
-@media screen and (min-width:188px)and (max-width: 200px){
+@media screen and (max-width: 200px){
   footer p {
     font-size:0.3rem;
     }

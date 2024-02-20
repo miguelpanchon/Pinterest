@@ -26,7 +26,7 @@
       align-items: center;
       width: 100%; 
       margin: 0 auto;
-      padding: 10px; 
+     
       background-color: var(--light-color);   
       border-bottom: 0.2svw solid var(--border-ultra-dark-color); 
     }
@@ -136,88 +136,45 @@
 
 
 
-/* media queries */
-
-@media screen and (max-width: 200px){
-   
-  .invisible1 {
-     display:none; 
-   }
-  
-  
-   .invisible2 {
-     display:none; 
-   }
-  
-   .invisible3 {
-     display:none; 
-   }
-   .invisible5 {
-     display:none; 
-   }
-}
 
 
-@media screen and (min-width:201px)and (max-width: 378px){
-   
-  .invisible1 {
-     display:none; 
-   }
-  
-  
-   .invisible2 {
-     display:none; 
-   }
-  
-   .invisible3 {
-     display:none; 
-   }
-   .invisible4 {
-     display:none; 
-   }
-}
-
-@media screen and (min-width:379px)and (max-width: 430px) {
-
-  .invisible1, .invisible2, .invisible3 {
-   display:none;
+/* **************************
+media query mobile
+************************** */
+@media (max-width: 320px) {
+  .invisible1, .invisible2, .invisible3, .invisible4, .invisible5 {
+    display:none; 
   }
-}
-
-
-@media screen and (min-width:431px)and (max-width: 666px){
-   
-  .invisible1, .invisible2, .invisible3 {
-     display:none; 
-   }
-  
-  } 
-
-
-@media screen and (min-width:667px) and (max-width: 1000px) { 
-   
-   .invisible1, .invisible2 {
-    display:none;
-   }
-
-
-
-
-
-
-
-
+  aside {
+    justify-content: center;
+    align-items: center;
+    height: 3rem;  
+  }
 
 }
 
-@media screen and (min-width:1001px)and (max-width: 1318px) {
+
+/* ************************
+media query tablet
+************************** */
+@media (min-width: 321px) and (max-width: 768px) {
+  .invisible1 {
+    display: none; 
+  }
+
+  aside {
+  justify-content: center;
+  align-items: center;
+  padding: 3svw;
+  }
 
 }
 
-@media screen and (min-width:1319px)and (max-width: 1706px) {
 
-}
+ /* ******************
+media query pc
+********************** */
+/* Styles for PCs or laptops with a minimum width of 1024 pixels */
+@media (min-width: 1024px) {
 
-   @media screen and (min-width:1707px)and (max-width: 2500px) {
-  
 }

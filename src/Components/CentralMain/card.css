@@ -1,7 +1,7 @@
 
 .card {
-  width: 9.8svh;
-  height:auto;
+  width: auto;
+  height:4svh;
   overflow:hidden;
   border-radius: 10px;
   box-shadow: 4px 4px 6px 0 #104faf;
@@ -9,8 +9,7 @@
   text-align: center;
   font-size: 5vh;
   /* color: #104faf; */
-  margin-bottom: 1.15svw; 
-}
+  }
 
 
 .card:hover {

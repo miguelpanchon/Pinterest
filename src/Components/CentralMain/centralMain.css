@@ -1,3 +1,6 @@
+/*background of body is set in styles.css*/
+
+
 main {
   --no_photos_color: #555;
 
@@ -6,7 +9,7 @@ main {
 h1 {
   margin-left: 3.5svh;
   text-align: Left;
-  font-size:6em;
+  font-size:3em;
 }
 
 .photos {
@@ -15,16 +18,18 @@ h1 {
 
 
 .div_photos1 {
-  height: 250vh; 
   width: 100svw;
+
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap:wrap;
-  justify-content: baseline; /*main axis*/
-  align-items: stretch; /*cross axis */
+  justify-content:space-around; /* main axis */
+  align-items: center; /*cross axis */
   overflow:hidden;
-  padding-left:5.5svw;
-  padding-right:0.8svw;
+  gap:1rem;
+
+  padding-left:2svw;
+  padding-right:2svw;
 }
 
 .no-photos-message {
@@ -44,18 +49,18 @@ h1 {
 
 /* media queries */
 
-@media screen and (min-width:188px)and (max-width: 200px){
+@media screen and (min-width:188px)and (max-width: 269px){
   h1 {
-    margin-left: 3.5svh;
-    text-align: Left;
+    margin-left: 0;
+    text-align: center;
     font-size:0.9em; 
   }
 }
 
 
-@media screen and (min-width:201px)and (max-width: 378px){
+@media screen and (min-width:270px)and (max-width: 378px){
   h1 {
-    margin-left: 3.5svh;
+    margin-left: 1svh;
     text-align: Left;
     font-size:1.4em;
   }
@@ -63,16 +68,16 @@ h1 {
 
 @media screen and (min-width:379px)and (max-width: 430px) {
   h1 {
-    margin-left: 3.5svh;
+    margin-left: 1.5svh;
     text-align: Left;
-    font-size:2em;
+    font-size:1.6em;
   }
 }
 
 
 @media screen and (min-width:431px)and (max-width: 666px){
   h1 {
-    margin-left: 3.5svh;
+    margin-left: 2.0svh;
     text-align: Left;
     font-size:2.1em;
   }
@@ -80,17 +85,17 @@ h1 {
 
 @media screen and (min-width:667px) and (max-width: 1000px) { 
   h1 {
-    margin-left: 3.5svh;
+    margin-left: 2.0svh;
     text-align: Left;
-    font-size: 4.2em;
+    font-size: 2.2em;
   }
 }
 
 @media screen and (min-width:1001px)and (max-width: 1318px) {
   h1 {
-    margin-left: 3.5svh;
+    margin-left: 2.0svh;
     text-align: Left;
-    font-size:4.5em;
+    font-size:2.5em;
   }
 }
 

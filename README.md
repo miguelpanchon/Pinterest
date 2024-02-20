@@ -7,12 +7,12 @@ Possibility of consuming images from unsplash (either random or filtering by key
 
 
 ## Technical challenges:
+
 ### General
-```sh
 
 Import a HTML file and watch it magically convert to Markdown
 Understand endpoints of an API
-Usage of Async functions in API consumtion
+Usage of Async functions & API consumtion
 Initial usage of components
 Vite as a front en dev tool with vanilla JavaScript 
 Usage of Github as a repository
@@ -21,6 +21,7 @@ Deployment: Netlify/Vercel
 
 
 ### JS
+
 - event handlers
 - functions
 - variable scope
@@ -28,6 +29,7 @@ Deployment: Netlify/Vercel
 
 
 ### CSS
+
 - several media queries
 - responsive
 - flex-box

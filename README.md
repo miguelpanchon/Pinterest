@@ -36,11 +36,16 @@ Deployment: Netlify/Vercel
 - variables
 - general `for`matting
 
-### Optional: debouncing `for` the introduction of text
+### Optional ToDos: 
 
+-debouncing when introducing text
 internet and IA: getting guidance on what is it and how to implement debouncing
-https://www.freecodecamp.org/espanol/news/curso-debounce-javascript-como-hacer-que-tu-js-espere/
-and blackbox.ai
+https://www.freecodecamp.org/espanol/news/curso-debounce-javascript-como-hacer-que-tu-js-espere/ and blackbox.ai
+
+-onClick on logo to restart the webpage
+
+-Waiting on teacher's comments
+
 
 
 | Main links | ||

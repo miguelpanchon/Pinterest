@@ -45,7 +45,9 @@ and blackbox.ai
 
 -conceal the credentials
 
- -reactivate the hightlighting of the cards when on mouse over
+-reactivate the hightlighting of the cards when on mouse over
+
+-when clicking a picture link to the picture
 
 
 | Main links        | Platform  | URL                                                         |

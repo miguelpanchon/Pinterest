@@ -23,11 +23,11 @@
 
 
 
-@media screen and (min-width:188)and (max-width: 496px) {
+@media screen and (min-width:188)and (max-width: 665px) {
 
  .card {
   width: 15rem;
-  height: auto;
+  height: 15rem;
   overflow:hidden;
   border-radius: 10px;
   box-shadow: 4px 4px 6px 0 #104faf;
@@ -38,10 +38,6 @@
   }
 }
 
-@media screen and (min-width:497)and (max-width: 666px){
-   .card { height: 15rem; margin: 0.8svw; 
- }
-}
 
 @media screen and (min-width:667) and (max-width: 1000px) { 
   .card { height: 15rem; margin: 0.7svw; 

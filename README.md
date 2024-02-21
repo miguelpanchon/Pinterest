@@ -43,6 +43,10 @@ and blackbox.ai
 
 -onclick event on logo to restart the webpage (=empty the value of the input box and reload images)
 
+-conceal the credentials
+
+ -reactivate the hightlighting of the cards when on mouse over
+
 
 | Main links        | Platform  | URL                                                         |
 | ----------------- | --------- | ------------------------------------------------------------|

@@ -32,13 +32,16 @@ Deployment: Netlify/Vercel
 - responsive
 - flex-box
 - variables
-- general formatting
+- general `for`matting
 
-### Optional: debouncing `for` the introduction of text
+### Optional: 
 
+-debouncing `for` the introduction of text
 internet and IA: getting guidance on what is it and how to implement debouncing
 https://www.freecodecamp.org/espanol/news/curso-debounce-javascript-como-hacer-que-tu-js-espere/
 and blackbox.ai
+
+-onclick event on logo to restart the webpage (=empty the value of the input box and reload images)
 
 
 | Main links | ||

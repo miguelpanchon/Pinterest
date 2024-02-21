@@ -23,7 +23,7 @@
 
 
 
-@media screen and (min-width:188)and (max-width: 665px) {
+@media screen and (min-width:188)and (max-width: 781px) {
 
  .card {
   width: 15rem;
@@ -39,7 +39,7 @@
 }
 
 
-@media screen and (min-width:667) and (max-width: 1000px) { 
+@media screen and (min-width:782) and (max-width: 1000px) { 
   .card { height: 15rem; margin: 0.7svw; 
    }
   }

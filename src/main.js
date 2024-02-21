@@ -81,18 +81,19 @@ searchButton.addEventListener('click', function () {
 });
 
 
-// //event listener when pressing <enter>
-// searchQuery.addEventListener('keydown', function (event) {
-//   query = searchQuery.value.trim();
-//   // avoid problems with the delete key
-//   if (event.key === 'Delete' && query.length > 0) {
-//     searchQuery.value = ''; //la idea es anular el contenido
-//   }
-//   if (event.key === 'Enter' && !query) {
-//     event.preventDefault();
-//     // no_photos.innterHTML = '';
-//     query = "random";
-//   }
-//   fetch3times();
-//   no_photos.innerHTML = '';
-// });
+
+// event listener when clickin on the logo
+const imgLogo = document.querySelector('.img_logo');
+
+imgLogo.addEventListener('click', function () {
+  logoClick();
+});
+
+
+function logoClick() {
+  searchQuery.value = "";
+  photosContainer.innerHTML = '';
+  fetch3times();
+  no_photos.innerHTML = '';
+
+}

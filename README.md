@@ -32,7 +32,7 @@ Deployment: Netlify/Vercel
 - responsive
 - flex-box
 - variables
-- general `for`matting
+- general formatting
 
 ### Optional: debouncing `for` the introduction of text
 

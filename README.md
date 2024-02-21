@@ -36,7 +36,7 @@ Deployment: Netlify/Vercel
 
 ### Optional: 
 
--debouncing `for` the introduction of text
+-debouncing: introduction of text waiting a bit
 internet and IA: getting guidance on what is it and how to implement debouncing
 https://www.freecodecamp.org/espanol/news/curso-debounce-javascript-como-hacer-que-tu-js-espere/
 and blackbox.ai

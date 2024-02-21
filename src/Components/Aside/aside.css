@@ -48,9 +48,11 @@
 
 
     .img_logo {
-      height: auto; 
-      width: 10svw;
-      /* aspect-ratio: 1/1; */
+      height: 3.5rem; 
+      width: 3.5rem;
+      padding-top:2px;
+      padding-bottom:2px;
+      /* aspect-ratio: 1/1;  */
     }
     
     
@@ -141,7 +143,7 @@
 /* **************************
 media query mobile
 ************************** */
-@media (max-width: 320px) {
+@media (max-width: 329px) {
   .invisible1, .invisible2, .invisible3, .invisible4, .invisible5 {
     display:none; 
   }
@@ -163,7 +165,7 @@ media query mobile
 /* ************************
 media query tablet
 ************************** */
-@media (min-width: 321px) and (max-width: 768px) {
+@media (min-width: 330px) and (max-width: 768px) {
   .invisible1 {
     display: none; 
   }
@@ -171,12 +173,12 @@ media query tablet
   aside {
     justify-content: center;
     align-items: center;
-    height: 3rem; 
-    position: fixed; /* Set the position to fixed */
-    top: 0; /* Place it at the top of the viewport */
-    left: 0; /* Align it to the left */
-    width: 100%; /* Set the width to 100% */
-    z-index: 1000; /* Ensure it's above other content */
+    height: 5rem; 
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    z-index: 1000; 
   }
 
 }

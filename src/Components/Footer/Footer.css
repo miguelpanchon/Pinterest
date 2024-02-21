@@ -7,12 +7,10 @@ footer {
   footer {
 
     background-color: var(--back_color);
-    border-top: 0.22svw solid var(--border_color);
-    border-bottom: 0.22svw solid var(--border_color);
-    /* margin-left: 3vh; */
-    margin-top: 3vh;
-    margin-bottom: 3vh;
-    /* padding: 10px;  */
+    border-top: 0.3svw solid var(--border_color);
+    border-bottom: 0.3svw solid var(--border_color);
+    margin-top: 0.5vh; /*get some distance with the pictures */
+    margin-bottom: 0vh;
   }
   
   footer p {

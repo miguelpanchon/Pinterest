@@ -32,7 +32,7 @@ Deployment: Netlify/Vercel
 - responsive
 - flex-box
 - variables
-- general `for`matting
+- general formatting
 
 ### Optional: 
 
@@ -44,11 +44,12 @@ and blackbox.ai
 -onclick event on logo to restart the webpage (=empty the value of the input box and reload images)
 
 
-| Main links | ||
-| ------ | ------ |----------|
-| Repository | GitHub | [plugins/github/README.md][PlGh] |
-| Deployment | Netlify | https://pinterestwithunsplash.netlify.app/ |
-| Product porftolio | Github | https://miguelpanchon-porfolio.netlify.app/|
+| Main links | Platform | URL |
+| ---------- | -------- | --- |
+| Repository | GitHub   | [GitHub](https://github.com/plugins/github/README.md) |
+| Deployment | Netlify  | [Netlify](https://pinterestwithunsplash.netlify.app/) |
+| Product portfolio | GitHub | [GitHub](https://miguelpanchon-portfolio.netlify.app/) |
+
 
 
 👨‍💻 Miguel Panchon 2024. Rock the Code (The Power MBA)

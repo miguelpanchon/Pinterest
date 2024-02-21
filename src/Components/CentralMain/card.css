@@ -1,7 +1,7 @@
 
 .card {
   width: 15rem;
-  height:15rem;
+  height:auto;
   overflow:hidden;
   border-radius: 10px;
   box-shadow: 4px 4px 6px 0 #104faf;

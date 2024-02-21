@@ -29,7 +29,7 @@ Deployment: Netlify/Vercel
 
 ### CSS
 - several media queries
-- responsive
+- responsive units and design
 - flex-box
 - variables
 - general formatting

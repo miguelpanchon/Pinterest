@@ -49,16 +49,16 @@
   }
 
 @media screen and (min-width:1001)and (max-width: 1318px) {
-   .card { width: 10svh; margin: 0.6svw; 
-   }
+  .card { width: 20svh;  
+  }
   }
 
   @media screen and (min-width:1319)and (max-width: 1706px) {
-    .card { width: 10svh; margin: 0.6svw; 
+    .card { width: 20svh;  
     }
    }
 
    @media screen and (min-width:1707)and (max-width: 2500px) {
-    .card { width: 10svh; margin: 0.6svw; 
+    .card { width: 20svh;  
     }
    }

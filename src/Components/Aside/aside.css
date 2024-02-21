@@ -189,5 +189,13 @@ media query pc
 ********************** */
 /* Styles for PCs or laptops with a minimum width of 1024 pixels */
 @media (min-width: 1024px) {
+  .img_logo {
+    height: 7rem; 
+    width: 7rem;
+    padding-top:2px;
+    padding-bottom:2px;
+    /* aspect-ratio: 1/1;  */
+  }
+
 
 }

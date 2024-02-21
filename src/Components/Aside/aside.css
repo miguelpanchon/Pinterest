@@ -145,10 +145,16 @@ media query mobile
   .invisible1, .invisible2, .invisible3, .invisible4, .invisible5 {
     display:none; 
   }
+
   aside {
     justify-content: center;
     align-items: center;
-    height: 3rem;  
+    height: 3rem; 
+    position: fixed; /* Set the position to fixed */
+    top: 0; /* Place it at the top of the viewport */
+    left: 0; /* Align it to the left */
+    width: 100%; /* Set the width to 100% */
+    z-index: 1000; /* Ensure it's above other content */
   }
 
 }
@@ -163,9 +169,14 @@ media query tablet
   }
 
   aside {
-  justify-content: center;
-  align-items: center;
-  padding: 3svw;
+    justify-content: center;
+    align-items: center;
+    height: 3rem; 
+    position: fixed; /* Set the position to fixed */
+    top: 0; /* Place it at the top of the viewport */
+    left: 0; /* Align it to the left */
+    width: 100%; /* Set the width to 100% */
+    z-index: 1000; /* Ensure it's above other content */
   }
 
 }

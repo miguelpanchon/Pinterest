@@ -3,14 +3,17 @@
 ********
 
 ## Functionality:
-Possibility of consuming images from unsplash (either random or filtering by keywords) in a deployed website
+-Possibility of consuming images from unsplash (either random or filtering by keywords) in a deployed website
+-When clicking on the logo (MP) the text box is emptied and a new random search is performed
+-Responsive design + media queries to adapt the layout and content to different display widths
+-when clicking on a picture there is a link to the picture and a new website is opened
 
 
 ## Technical challenges:
 ### General
 ```sh
 
-Import a HTML file and watch it magically convert to Markdown
+Format readme files
 Understand endpoints of an API
 Usage of Async functions and API consumtion
 Initial usage of components
@@ -34,20 +37,16 @@ Deployment: Netlify/Vercel
 - variables
 - general formatting
 
-### Optional: 
 
--debouncing: introduction of text waiting a bit
-internet and IA: getting guidance on what is it and how to implement debouncing
+### Optional (not implemented currently) 
+
+-debouncing: introduction of text waiting a bit so that the JS code does not perform several lookups using the API.
+task: getting to know what is, how it works and how to implement debouncing
 https://www.freecodecamp.org/espanol/news/curso-debounce-javascript-como-hacer-que-tu-js-espere/
-and blackbox.ai
 
--onclick event on logo to restart the webpage (=empty the value of the input box and reload images)
+-conceal the credentials to unsplash
 
--conceal the credentials
-
--reactivate the hightlighting of the cards when on mouse over
-
--when clicking a picture link to the picture
+-refactoring of the current spaghetti code
 
 
 | Main links        | Platform  | URL                                                         |

@@ -36,15 +36,29 @@ async function fetchPhotos(page) {
       no_photos.innerHTML = '<p class="no-photos-message">No photos found</p>';
       return;
     }
-    //paint each photo
+    //paint each phot AND create a link to the picture
+    //new
     photos.forEach(photo => {
       const img = document.createElement('img');
+      const link = document.createElement('a');
+      link.href = photo.links.html;
+      link.target = "_blank";
       img.classList.add('card');
       img.src = photo.urls.small;
       img.alt = photo.description || 'An Unsplash photo';
-      photosContainer.appendChild(img);
+      link.appendChild(img);
+      photosContainer.appendChild(link);
     });
 
+    /*old,  working but no link to the picture
+        photos.forEach(photo => {
+          const img = document.createElement('img');
+          img.classList.add('card');
+          img.src = photo.urls.small;
+          img.alt = photo.description || 'An Unsplash photo';
+          photosContainer.appendChild(img);
+        });
+    */
   }
   catch (error) {
     console.error(error);

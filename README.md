@@ -57,4 +57,4 @@ https://www.freecodecamp.org/espanol/news/curso-debounce-javascript-como-hacer-q
 
 
 
-👨‍💻 Miguel Panchon 2024. Rock the Code (The Power MBA)
+👨‍💻 Miguel Panchon 2024

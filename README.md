@@ -56,5 +56,11 @@ https://www.freecodecamp.org/espanol/news/curso-debounce-javascript-como-hacer-q
 | Product portfolio | GitHub    | [GitHub](https://miguelpanchon-portfolio.netlify.app/)      |
 
 
+Markdown tools:
+https://www.markdownguide.org/basic-syntax/
+https://stackedit.io/app#
+https://codebeautify.org/markdown-formatter
+https://dillinger.io/
+
 
 👨‍💻 Miguel Panchon 2024

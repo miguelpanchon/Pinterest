@@ -1,3 +1,4 @@
+## Version: 2
 
 ## Functionality:
 -Possibility of consuming images from unsplash (either random or filtering by keywords) in a deployed website

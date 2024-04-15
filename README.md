@@ -59,6 +59,9 @@ https://www.markdownguide.org/basic-syntax/
 https://stackedit.io/app#
 https://codebeautify.org/markdown-formatter
 https://dillinger.io/
+<<<<<<< HEAD
 
+=======
+>>>>>>> e60c0dc4fdbcd1ab34125c79152635ac58f13bce
 
 👨‍💻 Miguel Panchon 2024

@@ -1,6 +1,3 @@
-********
-# English
-********
 
 ## Functionality:
 -Possibility of consuming images from unsplash (either random or filtering by keywords) in a deployed website
@@ -55,6 +52,12 @@ https://www.freecodecamp.org/espanol/news/curso-debounce-javascript-como-hacer-q
 | Deployment        | Netlify   | [Netlify](https://pinterestwithunsplash.netlify.app/)       |
 | Product portfolio | GitHub    | [GitHub](https://miguelpanchon-portfolio.netlify.app/)      |
 
+
+Markdown tools:
+https://www.markdownguide.org/basic-syntax/
+https://stackedit.io/app#
+https://codebeautify.org/markdown-formatter
+https://dillinger.io/
 
 
 👨‍💻 Miguel Panchon 2024

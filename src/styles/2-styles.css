@@ -5,8 +5,7 @@
   padding:0;
   box-sizing: border-box;
   list-style:none;
-  height:auto;
-  /* me fastidia la sección de categorías de instrumentos */
+  height:fit-content; 
 }
   
 /* CSS media queries & responsive web design tutorial for beginners dave gray*/
@@ -16,13 +15,18 @@
   /* min-height:100svh; */
   display:flex;
   flex-direction: row;
-  --fondoClarito:white;
+
   /* sugerencia del profe (Daniel) */
   overflow-x: hidden; 
   overflow-y:visible;
-  background-color:rgb(201, 221, 255);
+
   height:fit-content;
   font-family: arial;
   height:auto;
+
+
+  
+    background-color: black;
+    color: yellow;
 }
 

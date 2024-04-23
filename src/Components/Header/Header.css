@@ -1,0 +1,18 @@
+/* Header: container styles for the image and the button */
+header {
+  --foreground-color: #FFFFFF;    ;
+  --background-color:     #61777F;
+
+    display: flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    align-items: center;
+    background-color: var(--background-color);
+    margin:0px;
+    padding:0px;
+    
+    /* padding: 1rem; */
+  }
+  
+
+  

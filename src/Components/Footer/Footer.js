@@ -9,7 +9,7 @@ export function paintFooter() {
 
     // Create the first li element
     const li1 = document.createElement("li");
-    li1.textContent = "by Miguel Panchón, April 2024 ";
+    li1.textContent = "by Miguel Panchón, May 2024 ";
     ul.appendChild(li1);
 
     // Create the second li element
